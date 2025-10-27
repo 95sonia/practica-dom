@@ -15,9 +15,8 @@ img {
 }
 
 .container {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
-    border: 1px solid rgb(129, 129, 8);
 }
 
 .flexContainer {
@@ -30,6 +29,52 @@ img {
 .flexContainer>* {
     width: 100%;
 }
+
+header {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+}
+
+main h1 {
+    margin: 15px;
+    text-align: center;
+    color: rgb(250, 117, 28);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(255, 140, 64);
+    font-weight: bold;
+}
+
+main {
+    padding-bottom: 100px;
+    /*para dejar espacio antes del footer*/
+}
+
+#recomendados {
+    margin-bottom: 40px;
+    /*para dejar espacio antes de Destinos*/
+}
+
+.imagenes-tarjetas {
+    border-radius: 20px;
+}
+
+.imagenes-tarjetas:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+}
+
 
 /* ===============================
             768px
